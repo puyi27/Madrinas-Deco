@@ -15,8 +15,8 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Las Madrinas Deco | Alta Costura Arquitectónica",
-  description: "Proyectos de reforma integral con calidades premium.",
+  title: "Las Madrinas Deco | Magia en tus celebraciones",
+  description: "Decoración integral de eventos, cumpleaños, bautizos y mesas dulces de cuento.",
 };
 
 export default function RootLayout({
