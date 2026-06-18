@@ -1,11 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-interface HeroSectionProps {
-  whatsappUrl: string;
-}
-
-export const HeroSection = ({ whatsappUrl }: HeroSectionProps) => {
+export const HeroSection = () => {
   return (
     <section className="relative w-full h-screen min-h-[800px] flex flex-col items-center justify-center overflow-hidden bg-[#FFF8F8] text-[#5A4A4A]">
       <div className="absolute inset-0 z-0">
@@ -43,7 +39,7 @@ export const HeroSection = ({ whatsappUrl }: HeroSectionProps) => {
 
           <div className="pt-10">
             <Link 
-              href={whatsappUrl}
+              href="https://www.instagram.com/lasmadrinas.deco"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-4 bg-[#c68b98] text-white px-8 py-4 rounded-full hover:bg-[#b07885] transition-all duration-300 shadow-lg hover:shadow-xl font-sans"
