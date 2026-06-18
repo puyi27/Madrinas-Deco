@@ -29,12 +29,12 @@ export const HeroSection = () => {
 
         <div className="max-w-3xl space-y-6">
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-light tracking-tight text-[#c68b98] leading-[0.9]">
-            <span className="block font-serif italic mb-2">Hacemos magia</span>
-            <span className="block font-sans font-medium tracking-widest text-3xl sm:text-4xl text-[#5A4A4A] mt-4 uppercase">En tus celebraciones</span>
+            <span className="block font-serif italic mb-2">Decoramos</span>
+            <span className="block font-sans font-medium tracking-widest text-3xl sm:text-4xl text-[#5A4A4A] mt-4 uppercase">tus celebraciones</span>
           </h1>
 
           <p className="text-lg sm:text-xl font-light tracking-wide max-w-2xl mx-auto leading-relaxed text-[#7A6A6A] font-sans mt-6">
-            Decoración integral de eventos. Transformamos tus fiestas, cumpleaños y momentos especiales en escenarios de cuento.
+            Nos encargamos de toda la decoración de tus fiestas, cumpleaños y momentos especiales para que queden increíbles.
           </p>
 
           <div className="pt-10">

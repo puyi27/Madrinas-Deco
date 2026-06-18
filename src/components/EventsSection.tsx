@@ -6,10 +6,10 @@ export const EventsSection = () => {
   const eventImages = portfolioData.slice(0, 4);
 
   const events = [
-    { title: "Cumpleaños Infantiles", desc: "Magia y fantasía adaptada a sus personajes favoritos.", img: eventImages[0]?.src || '/images/gallery-1.png' },
-    { title: "Bautizos y Comuniones", desc: "Elegancia y ternura para los días más familiares.", img: eventImages[1]?.src || '/images/gallery-2.png' },
-    { title: "Baby Showers", desc: "La bienvenida más dulce y cuidada para el nuevo bebé.", img: eventImages[2]?.src || '/images/gallery-3.png' },
-    { title: "Eventos Especiales", desc: "Fiestas temáticas, aniversarios y celebraciones íntimas.", img: eventImages[3]?.src || '/images/gallery-1.png' }
+    { title: "Cumpleaños", desc: "Montajes temáticos que a los peques les encantarán.", img: eventImages[0]?.src || '/images/gallery-1.png' },
+    { title: "Bautizos y Comuniones", desc: "Decoraciones cuidadas para un día en familia.", img: eventImages[1]?.src || '/images/gallery-2.png' },
+    { title: "Baby Showers", desc: "El mejor ambiente para celebrar la llegada del bebé.", img: eventImages[2]?.src || '/images/gallery-3.png' },
+    { title: "Otras Celebraciones", desc: "Nos adaptamos a la idea que tengas en mente.", img: eventImages[3]?.src || '/images/gallery-1.png' }
   ];
 
   return (
@@ -17,7 +17,7 @@ export const EventsSection = () => {
       <div className="max-w-7xl mx-auto px-6 sm:px-12 text-center">
         <h2 className="text-4xl sm:text-5xl font-serif italic text-[#c68b98] mb-4">Tipos de Eventos</h2>
         <p className="font-sans text-lg text-[#7A6A6A] max-w-2xl mx-auto mb-16">
-          Cada celebración es única. Nos adaptamos a la naturaleza de tu evento para crear una atmósfera que tú y tus invitados nunca olvidaréis.
+          Da igual lo que celebres, nos encargamos de que el espacio quede exactamente como te lo imaginabas.
         </p>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

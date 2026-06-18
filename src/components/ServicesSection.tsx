@@ -10,19 +10,19 @@ export const ServicesSection = () => {
   const services = [
     {
       title: "Mesas Dulces",
-      desc: "Diseñamos Candy Bars espectaculares que se convierten en el centro de todas las miradas. Repostería creativa, texturas y colores en perfecta armonía para dejar a tus invitados sin palabras.",
+      desc: "Montamos el rincón más bonito de la fiesta. Nos encargamos del diseño, el atrezzo, las bases y toda la decoración para que la mesa quede preciosa y lista para colocar vuestros dulces.",
       img: imgMesasDulces,
       reverse: false
     },
     {
-      title: "Decoración con Globos",
-      desc: "Arcos orgánicos, fondos fotográficos (photocalls) y composiciones aéreas que aportan volumen y un impacto visual inmediato a la celebración.",
+      title: "Estructuras y Globos",
+      desc: "Creamos arcos orgánicos y fondos (photocalls) que le dan vida y color a cualquier espacio. El rinconcito perfecto para haceros mil fotos con los invitados.",
       img: imgGlobos,
       reverse: true
     },
     {
-      title: "Diseño Floral y Menaje",
-      desc: "Centros de mesa delicados, mantelería, iluminación cálida y todos los pequeños detalles decorativos que hacen que la mesa luzca impecable y se sienta como un auténtico cuento.",
+      title: "Mesas y Detalles",
+      desc: "No solo decoramos la fiesta, también vestimos la mesa donde vais a comer. Ponemos centros florales, bajoplatos y cuidamos esos pequeños detalles que hacen que todo se vea súper especial.",
       img: imgFloral,
       reverse: false
     }
@@ -32,9 +32,9 @@ export const ServicesSection = () => {
     <section className="py-16 sm:py-24 bg-white text-[#5A4A4A]">
       <div className="max-w-7xl mx-auto px-6 sm:px-12">
         <div className="text-center mb-16 lg:mb-24">
-          <h2 className="text-4xl sm:text-5xl font-serif italic text-[#c68b98] mb-4">Nuestros Servicios</h2>
+          <h2 className="text-4xl sm:text-5xl font-serif italic text-[#c68b98] mb-4">Lo que hacemos</h2>
           <p className="font-sans text-lg text-[#7A6A6A] max-w-2xl mx-auto">
-            Cuidamos cada detalle visual de la fiesta para que tú solo tengas que preocuparte de disfrutar.
+            Nos ocupamos de toda la parte visual de tu evento para que llegue ese día y simplemente disfrutes.
           </p>
         </div>
 
