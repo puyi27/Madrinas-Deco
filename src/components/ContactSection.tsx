@@ -6,7 +6,7 @@ export const ContactSection = () => {
       <div className="max-w-4xl mx-auto px-6 sm:px-12">
         <h2 className="text-4xl sm:text-6xl font-serif italic mb-6">¿Hablamos?</h2>
         <p className="text-lg sm:text-xl font-light font-sans mb-12 text-white/90">
-          La mejor forma de empezar a diseñar tu evento es a través de nuestro Instagram. Escríbenos, cuéntanos tu idea y nosotras ponemos la magia.
+          Escríbenos por Instagram, cuéntanos la idea que tienes en la cabeza y nosotras le damos forma y la hacemos realidad.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
           <Link 
