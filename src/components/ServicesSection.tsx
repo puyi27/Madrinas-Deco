@@ -29,18 +29,18 @@ export const ServicesSection = () => {
   ];
 
   return (
-    <section className="py-24 bg-white text-[#5A4A4A]">
+    <section className="py-16 sm:py-24 bg-white text-[#5A4A4A]">
       <div className="max-w-7xl mx-auto px-6 sm:px-12">
-        <div className="text-center mb-24">
+        <div className="text-center mb-16 lg:mb-24">
           <h2 className="text-4xl sm:text-5xl font-serif italic text-[#c68b98] mb-4">Nuestros Servicios</h2>
           <p className="font-sans text-lg text-[#7A6A6A] max-w-2xl mx-auto">
             Cuidamos cada detalle visual de la fiesta para que tú solo tengas que preocuparte de disfrutar.
           </p>
         </div>
 
-        <div className="flex flex-col gap-24">
+        <div className="flex flex-col gap-16 lg:gap-24">
           {services.map((service, idx) => (
-            <div key={idx} className={`flex flex-col ${service.reverse ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center gap-12 lg:gap-20`}>
+            <div key={idx} className={`flex flex-col ${service.reverse ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center gap-8 lg:gap-20`}>
               {/* Image Block */}
               <div className="w-full lg:w-1/2 relative aspect-[4/5] sm:aspect-square lg:aspect-[4/5] rounded-3xl overflow-hidden shadow-xl group">
                 <Image

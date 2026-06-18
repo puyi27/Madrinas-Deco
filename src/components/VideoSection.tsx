@@ -13,12 +13,12 @@ export const VideoSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="flex overflow-x-auto pb-8 snap-x snap-mandatory gap-6 md:grid md:grid-cols-3 md:gap-8 md:overflow-visible no-scrollbar">
           {videoData.map((video, idx) => (
-            <div key={idx} className="relative rounded-2xl overflow-hidden shadow-sm aspect-[9/16] bg-black/5">
+            <div key={idx} className="relative rounded-2xl overflow-hidden shadow-sm aspect-[9/16] bg-black/5 min-w-[80vw] sm:min-w-[50vw] md:min-w-0 snap-center shrink-0">
               <video 
                 src={video.src} 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover pointer-events-none"
                 autoPlay 
                 loop 
                 muted 

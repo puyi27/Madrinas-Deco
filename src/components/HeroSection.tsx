@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const HeroSection = () => {
   return (
-    <section className="relative w-full h-screen min-h-[800px] flex flex-col items-center justify-center overflow-hidden bg-[#FFF8F8] text-[#5A4A4A]">
+    <section className="relative w-full min-h-[100svh] flex flex-col items-center justify-center overflow-hidden bg-[#FFF8F8] text-[#5A4A4A] py-12">
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero-event.png"

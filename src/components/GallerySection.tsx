@@ -27,12 +27,12 @@ export const GallerySection = () => {
             Un pequeño vistazo a los cuentos que hemos ayudado a crear.
           </p>
           
-          <div className="flex flex-wrap justify-center gap-4 mb-12">
+          <div className="flex overflow-x-auto no-scrollbar sm:flex-wrap sm:justify-center gap-3 mb-12 pb-4 px-2 snap-x">
             {categories.map(cat => (
               <button
                 key={cat.id}
                 onClick={() => setFilter(cat.id)}
-                className={`px-6 py-2 rounded-full font-sans text-sm tracking-wider uppercase transition-colors duration-300 ${
+                className={`shrink-0 snap-center px-6 py-2.5 rounded-full font-sans text-xs sm:text-sm tracking-wider uppercase transition-colors duration-300 ${
                   filter === cat.id 
                     ? 'bg-[#c68b98] text-white' 
                     : 'bg-white text-[#7A6A6A] hover:bg-[#FFF0F0]'
@@ -44,7 +44,7 @@ export const GallerySection = () => {
           </div>
         </div>
 
-        <div className="columns-1 sm:columns-2 md:columns-3 gap-6 space-y-6">
+        <div className="columns-2 sm:columns-3 lg:columns-4 gap-4 sm:gap-6 space-y-4 sm:space-y-6">
           {filteredImages.map((img, idx) => (
             <div key={idx} className="relative rounded-2xl overflow-hidden shadow-sm group break-inside-avoid">
               <Image

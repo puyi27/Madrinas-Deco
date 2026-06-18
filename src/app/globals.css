@@ -8,3 +8,13 @@
 body {
   @apply bg-[#FFF8F8] text-[#5A4A4A];
 }
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
