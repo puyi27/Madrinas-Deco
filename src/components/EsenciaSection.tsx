@@ -7,7 +7,7 @@ export const EsenciaSection = () => {
           Sabemos el trabajo que supone organizar un evento. Las carreras de última hora, los nervios, que si las flores, que si las mesas...
         </p>
         <p className="text-lg sm:text-xl font-light font-sans text-white/90 leading-relaxed">
-          Nosotras estamos aquí para que te olvides de todo eso. **Tú encárgate de invitar a tu gente y disfrutar del día.** Nosotras nos apañamos para dejarlo todo de ensueño, montando cada rincón con muchísimo mimo para que, cuando lleguéis, solo tengáis que haceros fotos y celebrar.
+          Nosotras estamos aquí para que te olvides de todo eso. <br /> Tú encárgate de invitar a tu gente y disfrutar del día. Nosotras nos apañamos para dejarlo todo de ensueño, montando cada rincón con muchísimo mimo para que, cuando lleguéis, solo tengáis que haceros fotos y celebrar.
         </p>
       </div>
     </section>
