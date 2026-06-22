@@ -26,8 +26,8 @@ export const ServicesSection = () => {
       reverse: true
     },
     {
-      title: "Mesas y Detalles",
-      desc: "No solo decoramos, también vestimos la mesa donde vais a comer. Con sus centros de flores y esos detallitos que marcan la diferencia y hacen que todo se vea súper especial.",
+      title: "Centros de Mesa Artesanales",
+      desc: "Vestimos la mesa principal y la de vuestros invitados con centros elaborados minuciosamente a mano. Es un trabajo muy laborioso y artesanal al que dedicamos horas de mimo, cuidando cada flor y cada detalle para crear atmósferas espectaculares donde sentarse a celebrar.",
       img: imgFloral,
       reverse: false
     }
