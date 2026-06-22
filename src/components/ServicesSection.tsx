@@ -22,7 +22,7 @@ export const ServicesSection = () => {
     },
     {
       title: "Centros de Mesa Artesanales",
-      desc: "Vestimos la mesa principal y la de vuestros invitados con centros elaborados minuciosamente a mano. Es un trabajo muy laborioso y artesanal al que dedicamos horas de mimo, cuidando cada flor y cada detalle para crear atmósferas espectaculares donde sentarse a celebrar.",
+      desc: "Vestimos la mesa principal y la de vuestros invitados con centros elaborados minuciosamente a mano. Es un trabajo muy laborioso y artesanal al que dedicamos horas de mimo, cuidando cada flor y cada detalle para crear espacios espectaculares donde sentarse a celebrar.",
       img: imgFloral,
       reverse: false
     }
