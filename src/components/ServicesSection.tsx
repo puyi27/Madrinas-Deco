@@ -3,14 +3,9 @@ import portfolioData from '@/data/portfolio.json';
 import { FadeIn } from './ui/FadeIn';
 
 export const ServicesSection = () => {
-  // Select one representative image for each category
-  const mesasCat = portfolioData.categories.find(c => c.id === 'mesas-dulces');
-  const globosCat = portfolioData.categories.find(c => c.id === 'globos');
-  const eventosCat = portfolioData.categories.find(c => c.id === 'eventos');
-
-  const imgMesasDulces = mesasCat?.images[0]?.src || '/images/WhatsApp Image 2026-06-18 at 17.22.55 (4).jpeg';
-  const imgGlobos = globosCat?.images[0]?.src || '/images/WhatsApp Image 2026-06-18 at 17.22.54 (4).jpeg';
-  const imgFloral = eventosCat?.images[0]?.src || '/images/WhatsApp Image 2026-06-18 at 17.22.57 (4).jpeg';
+  const imgMesasDulces = '/images/WhatsApp Image 2026-06-18 at 17.22.55 (4).jpeg';
+  const imgGlobos = '/images/WhatsApp Image 2026-06-18 at 17.22.54 (4).jpeg';
+  const imgFloral = '/images/WhatsApp Image 2026-06-18 at 17.22.57 (4).jpeg';
 
   const services = [
     {
