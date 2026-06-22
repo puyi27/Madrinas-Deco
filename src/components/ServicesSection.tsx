@@ -8,9 +8,9 @@ export const ServicesSection = () => {
   const globosCat = portfolioData.categories.find(c => c.id === 'globos');
   const eventosCat = portfolioData.categories.find(c => c.id === 'eventos');
 
-  const imgMesasDulces = mesasCat?.images[0]?.src || '/images/gallery-1.png';
-  const imgGlobos = globosCat?.images[0]?.src || '/images/gallery-2.png';
-  const imgFloral = eventosCat?.images[0]?.src || '/images/gallery-3.png';
+  const imgMesasDulces = mesasCat?.images[0]?.src || '/images/WhatsApp Image 2026-06-18 at 17.22.55 (4).jpeg';
+  const imgGlobos = globosCat?.images[0]?.src || '/images/WhatsApp Image 2026-06-18 at 17.22.54 (4).jpeg';
+  const imgFloral = eventosCat?.images[0]?.src || '/images/WhatsApp Image 2026-06-18 at 17.22.57 (4).jpeg';
 
   const services = [
     {
